@@ -1,0 +1,9 @@
+title: Project 3 ERD
+exclude:
+    - ActiveRecord::InternalMetadata
+    - ActiveRecord::SchemaMigration
+    - ActionMailbox::InboundEmail
+    - ActiveStorage::Blob
+    - ActiveStorage::VariantRecord
+    - ActiveStorage::Attachment
+    - ActionText::RichText
