@@ -14,4 +14,3 @@ AllCops:
   Exclude:
     - 'bin/bundle'
     - 'db/schema.rb'
-Footer
