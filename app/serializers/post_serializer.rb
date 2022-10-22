@@ -2,10 +2,6 @@
 
 # Serializer for Posts
 class PostSerializer < ActiveModel::Serializer
-  attributes :id, :content, :comments
+  attributes :id, :content
   has_many :comments
-
-  def messages
-    object.comments
-  end
 end
